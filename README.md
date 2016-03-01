@@ -1,6 +1,6 @@
 # AES-Key-Generator-in-Java
 
-``java
+```java
 import java.security.Key;
 import java.security.Security;
 
@@ -34,4 +34,4 @@ public class MainClass {
     System.out.println("unwrapped: " + new String(key.getEncoded()));
   }
 }
-``
+```
